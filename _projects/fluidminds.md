@@ -8,7 +8,6 @@ category: work
 related_publications: false
 ---
 
-
 <h3>📃 Summary</h3>
 Physical medium-based visuals with audio may achieve safe and controlled distraction. Usage of relatively less explored material - Ferrofluid is studied in the making of a Fidget distraction tool capable of creating dynamic and attractive visuals to keep them engaged before the medical procedure starts. The research investigates materiality of ferrofluids which led to investigating the role of direct manipulation interfaces in building a strong and positive collaboration experiences with ferrofluids as a medium. A tangible maze puzzle was developed, in which participants could maneuver the suspended ferrofluid particles and navigate through the maze. The puzzle installation was placed in a social setting to assess user engagement and effect on enhancing collaborative experience
 
@@ -29,7 +28,6 @@ A thorough research was done in understanding pediatric patients for their fear 
 <div class="caption">
     Methodology followed in the study
 </div>
-
 
 <h3>User research</h3>
 MNR Hospital, Sangareddy and Apollo hospital, Navi mumbai were visited for preliminary study and insights. Figures, statistics stated are based on the visits conducted during the period of execution of project.
@@ -77,10 +75,9 @@ A tangible prototype pf a maze puzzle was developed, in which participants could
 </div>
 
 <h3>Next steps... towards Smart Material Interfaces!</h3>
-This is where things got interesting, observing the interation patterns and feedback received from the participants motivated me to explore the use of material - "ferrofluid" from a human interaction point of view. I started a thourough literature review and came across the term - "Smart Material Interfaces" (SMI). Advancements in computing technology and smart materials have given rise to a relatively newer concept of Smart Material Interface (SMI). Through {% cite minuto %}. works, he proposed a vision of SMIs which possess the capability of making changes to the physical and material properties of the output modality. SMIs are found to be possessing self-augmented capabilities, making them reactive - change in size, shape, color etc under the control of any external stimuli which can be in the form of electricity, magnetism, light, temperature {% cite minuto %}. Organic User Interfaces (OUI) on the other hand are generally non-planar displays for both input and output, opening possibilities across flexible and unconventional interfaces {% cite Vertegaal %}. The other noteworthy concept to be understood across such interfaces is the coupling of information and presentation layers and manipulation type used to achieve communication with the underlying information. Few significant differences of SMIs compared to TUIs - close coupling between input and output changes making them observable and accessible through material and physical changes {% cite vyas %}, a continuous perception of the object and physical changes in space offering a more cohesive and natural interaction. 
+This is where things got interesting, observing the interation patterns and feedback received from the participants motivated me to explore the use of material - "ferrofluid" from a human interaction point of view. I started a thourough literature review and came across the term - "Smart Material Interfaces" (SMI). Advancements in computing technology and smart materials have given rise to a relatively newer concept of Smart Material Interface (SMI). Through {% cite minuto %}. works, he proposed a vision of SMIs which possess the capability of making changes to the physical and material properties of the output modality. SMIs are found to be possessing self-augmented capabilities, making them reactive - change in size, shape, color etc under the control of any external stimuli which can be in the form of electricity, magnetism, light, temperature {% cite minuto %}. Organic User Interfaces (OUI) on the other hand are generally non-planar displays for both input and output, opening possibilities across flexible and unconventional interfaces {% cite Vertegaal %}. The other noteworthy concept to be understood across such interfaces is the coupling of information and presentation layers and manipulation type used to achieve communication with the underlying information. Few significant differences of SMIs compared to TUIs - close coupling between input and output changes making them observable and accessible through material and physical changes {% cite vyas %}, a continuous perception of the object and physical changes in space offering a more cohesive and natural interaction.
 
 Currently in progress, the future of this work will be to investigate the applicability of SMI's in the context of tangible, expressive educational methods.
-
 
 <h2>References</h2>
 {% bibliography --file projects %}

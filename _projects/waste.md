@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI for Waste segregation
-description: 
+description:
 img: assets/img/waste/poster.jpg
 importance: 1
 category: work

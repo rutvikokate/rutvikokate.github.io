@@ -12,7 +12,6 @@ related_publications: false
 AISwARYAM (AI for Sustainable Infrastructure and Resource Planning, Analysis and Monitoring). A suite of AI-driven digital experiences across multiple categories, such as traffic accidents, air pollution, traffic congestion, waste management to help policymakers and government officials make data-driven decisions.
 Natural language, AR/VR interfaces increasing data perception among government administrators to make decisions based on visualizations of geospatial hotspots, forecasts and summary recommendations across multiple urban sectors.
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/aiswaryam/cave1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -47,7 +46,6 @@ Datasets were captured across - traffic congestion (Hyderabad Arcadis IBI), traf
 <h4>Model development & Agentic chat interface</h4>
 Based on the sourced datasets, an unsupervised algorithm - Isolation forest, was used for detecting anomalies by constructing multiple isolation trees. Here, the average path length across all trees determines if a point is an anomaly, with shorter lengths
 indicating anomalies. Isolation forests are used as the choice of machine learning algorithm for anomaly/hotspot detection across the considered domains. A indian language-centric multimodal chat-based AI system is proposed for queries on various data sources originating from urban governance. Such a query-based chat system is envisioned to empower urban municipal functionaries on getting data and Al-driven insights without being heavily dependent on IT professionals or without requiring too much technical knowledge in native language. Powered by freely available open-source models without the need to pass any sensitive data or information to external agencies.
-
 
 <h3>💻Dashboard</h3>
 The dashboard aims to provide AI-driven spatio-temporal hotspot analysis across multiple categories, such as traffic accidents, air pollution, garbage management, to help policymakers and government officials make data-driven decisions.
