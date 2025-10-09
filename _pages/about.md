@@ -1,34 +1,37 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: |
+  Project Scientist @ <a href='https://aiswaryam.ai.iith.ac.in/'>AI Center of Excellence, IIT Hyderabad</a> <br>
+  <i class="fa-solid fa-file"></i> <a href='#'>CV</a> / <i class="fa-brands fa-linkedin"></i> <a href='#'>Linkedin</a>.
+
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi I'm Rutvik, currently I am working as a Project Scientist at the AI Center of Excellence, IIT Hyderabad. Building digital experiences and services for AI-powered urban governance platform, waste management assisting government bodies. A project under the <a href='https://www.pib.gov.in/PressReleasePage.aspx?PRID=2064990'>Make AI in India, IndiaAI</a> mission.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research studies are focused across - design co-creativity, human-AI, tangible interactions. I am excited about creative applications of computing technologies ( LLMs, extended-reality ) and their impact on design and society.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I earned my Masters' degree from IIT Hyderabad, specializing in Interaction design and focussed my research on design co-creativity AI support tool/method. During my masters I had the opportunity to intern at Optum where I implemented a case study on assitive tech ecosystem for chronic medication adherence. Before my Masters I was employed as a Senior Data Engineer at LTI, where I worked on data engineering and analytics projects in the domain of life sciences. I completed by Bachelor of Engineering in Computer Engineering from Mumbai University during which I interned at Reliance PetroChem as a Machine learning intern.
+
+
