@@ -20,7 +20,7 @@ category: work
     </div>
 </div>
 <div class="caption">
-    Demonstration to members from the Ministry and consortium partners.
+    Participants interacting with ALIA in an ideation session.
 </div>
 
 <h3>Literature findings</h3>
@@ -39,7 +39,7 @@ category: work
     </div>
 </div>
 <div class="caption">
-    Demonstration to members from the Ministry and consortium partners.
+    Research methodology followed throughout the study.
 </div>
 
 <h3>Objectives</h3>
