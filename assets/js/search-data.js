@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "I earned my Masters&#39; degree from IIT Hyderabad, specializing in Interaction design and focused my research on design co-creativity AI support tool/method. During my masters I had the opportunity to intern at Optum where I implemented a case study on assitive tech ecosystem for chronic medication adherence. Before my Masters I was employed as a Senior Data Engineer at LTI, where I worked on data engineering and analytics projects in the domain of life sciences. I completed by Bachelor of Engineering in Computer Engineering from Mumbai University during which I interned at Reliance PetroChem as a Machine learning intern.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
