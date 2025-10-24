@@ -4,6 +4,7 @@
 
 // Typography
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
+
 p,
 h1,
 h2,
@@ -24,6 +25,7 @@ hr {
 }
 
 table {
+
   td,
   th {
     font-size: 1rem;
@@ -140,7 +142,7 @@ ul.task-list {
   /* Remove bullets from all levels */
 }
 
-ul.task-list > li ul {
+ul.task-list>li ul {
   /* Nested lists within .task-list */
   padding-inline-start: 1.5rem;
 }
@@ -197,6 +199,7 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -297,7 +300,7 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  .navbar-nav .nav-item.active > .nav-link {
+  .navbar-nav .nav-item.active>.nav-link {
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
@@ -457,7 +460,7 @@ ul.task-list input[type="checkbox"] {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.wechat-modal > img {
+.wechat-modal>img {
   display: block;
   position: relative;
   top: 50%;
@@ -468,7 +471,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 400px) {
-  .wechat-modal > img {
+  .wechat-modal>img {
     width: 100%;
   }
 }
@@ -557,6 +560,7 @@ footer.sticky-bottom {
   padding-bottom: 3rem;
   background: url("/assets/img/work.png");
   background-size: cover;
+
   h1 {
     color: white;
     font-size: 5rem;
@@ -585,6 +589,8 @@ footer.sticky-bottom {
 
 .post-title {
   font-family: "DM Serif Text", serif;
+  color: #3f95ff;
+
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
@@ -592,6 +598,7 @@ footer.sticky-bottom {
 
 .post-list {
   margin: 0;
+  
   margin-bottom: 40px;
   padding: 0;
 
@@ -742,8 +749,7 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
-      .preview {
-      }
+      .preview {}
 
       .abbr {
         margin-bottom: 0.5rem;
@@ -783,12 +789,12 @@ footer.sticky-bottom {
           }
         }
 
-        > em {
+        >em {
           border-bottom: 1px solid;
           font-style: normal;
         }
 
-        > span.more-authors {
+        >span.more-authors {
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
@@ -1081,11 +1087,11 @@ progress::-moz-progress-bar {
 nav[data-toggle="toc"] {
   top: 5rem;
 
-  .nav .nav > li > a {
+  .nav .nav>li>a {
     font-size: 0.75rem;
   }
 
-  .nav > li > a {
+  .nav>li>a {
     color: var(--global-text-color);
     font-size: 0.75rem;
 
@@ -1109,6 +1115,7 @@ nav[data-toggle="toc"] {
 
 /* small screens */
 @media (max-width: 576px) {
+
   /* override stickyness so that the navigation does not follow scrolling */
   nav[data-toggle="toc"] {
     visibility: hidden;
@@ -1181,7 +1188,7 @@ swiper-container {
     border-bottom: 2px solid var(--global-text-color);
   }
 
-  .ps-algorithm.with-caption > .ps-line:first-child {
+  .ps-algorithm.with-caption>.ps-line:first-child {
     border-bottom: 2px solid var(--global-text-color);
   }
 }
@@ -1303,6 +1310,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 @media (max-width: 575px) {
+
   .newsletter-form-input,
   .newsletter-form-button,
   .newsletter-loading-button,
@@ -1333,6 +1341,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .bs-popover-top {
+
   // arrow fill color
   .arrow::after {
     border-top-color: var(--global-bg-color);
@@ -1345,6 +1354,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .bs-popover-bottom {
+
   // arrow fill color
   .arrow::after {
     border-bottom-color: var(--global-bg-color);

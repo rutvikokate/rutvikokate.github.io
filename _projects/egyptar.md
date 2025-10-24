@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ancient Egypt in AR
-description: AThere have been several books covering the rich ancient history of Egypt, but this books aims to bring the intricacies of Egyptian artefacts and architectureinto the readers spatial environment.
+description: There have been several books covering the rich ancient history of Egypt, but this books aims to bring the intricacies of Egyptian artefacts and architectureinto the readers spatial environment.
 img: assets/img/egypt.png
 importance: 1
 category: fun

@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A collection of some interesting projects I worked on across - human-AI Interaction, visualization and immersive media.
 nav: true
 nav_order: 2
 display_categories: [work, fun]

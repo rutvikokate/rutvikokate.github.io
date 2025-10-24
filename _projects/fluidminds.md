@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fluid Minds
-description: a project that redirects to another website
+description: Physical medium-based visuals with audio may achieve safe and controlled distraction. Usage of relatively less explored material - Ferrofluid is studied in the making of a Fidget distraction tool capable of creating dynamic and attractive visuals to keep them engaged before the medical procedure starts.
 img: assets/img/fluidminds/1.JPG
 importance: 4
 category: work
