@@ -168,10 +168,12 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 }
 
-// Card
+// Card   
 
 .card {
   background-color: var(--global-card-bg-color);
+  box-shadow: none;
+  border: 1px solid var(--global-divider-color);
 
   .card-img {
     width: 100%;
@@ -598,7 +600,7 @@ footer.sticky-bottom {
 
 .post-list {
   margin: 0;
-  
+
   margin-bottom: 40px;
   padding: 0;
 
@@ -678,7 +680,6 @@ footer.sticky-bottom {
 .projects {
   a {
     text-decoration: none;
-
     &:hover {
       .card-title {
         color: var(--global-theme-color);
@@ -687,6 +688,8 @@ footer.sticky-bottom {
   }
 
   .card {
+    box-shadow: none;
+
     img {
       width: 100%;
     }
@@ -704,11 +707,13 @@ footer.sticky-bottom {
 
   h2.category {
     color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+
     padding-top: 0.5rem;
+    font-style: italic;
+    font-family: 'DM Serif Text', serif;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: left;
   }
 }
 

@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: |
   Project Scientist @ <a href='https://aiswaryam.ai.iith.ac.in/'>AI Center of Excellence, IIT Hyderabad</a> <br>
-  <i class="fa-solid fa-file"> </i> <a href='/assets/pdf/rutvik_cv.pdf'>CV</a> • <i class="fa-brands fa-linkedin"></i> <a href='https://www.linkedin.com/in/rutvik-kokate/'>Linkedin</a>.
+  <i class="fa-solid fa-file"> </i> <a href='/assets/pdf/rutvik_cv.pdf'>CV</a> • <i class="fa-brands fa-linkedin"></i> <a href='https://www.linkedin.com/in/rutvik-kokate/'>Linkedin</a> • 🖼️ <a href='https://drive.google.com/file/d/1QTxHRok2upvv1tIhT0dJiLsQjK6uZ6W6/view?usp=sharing'>Portfolio</a>
 
 profile:
   align: right
