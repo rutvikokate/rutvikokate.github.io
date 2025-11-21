@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi I'm Rutvik, currently I am working as a Project Scientist at the AI Center of Excellence, IIT Hyderabad. Building digital experiences and services for AI-powered urban governance platform, waste management assisting government bodies. A project under the <a href='https://www.pib.gov.in/PressReleasePage.aspx?PRID=2064990'>Make AI in India, IndiaAI</a> mission.
+I am working as a Project Scientist at the AI Center of Excellence, IIT Hyderabad. Building digital experiences and services for AI-powered urban governance platform and waste management assisting government bodies. A project under the <a href='https://www.pib.gov.in/PressReleasePage.aspx?PRID=2064990'>Make AI in India, IndiaAI</a> mission.
 
 My research studies are focused across - design co-creativity, human-AI and tangible interactions. I am excited about creative applications of computing technologies ( LLMs, extended-reality ) and their impact on design and society.
 
