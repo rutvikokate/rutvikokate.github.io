@@ -61,7 +61,7 @@ ninja.data = [{
               window.location.href = "/projects/fluidminds/";
             },},{id: "projects-ai-for-waste-segregation",
           title: 'AI for Waste segregation',
-          description: "",
+          description: "Building computer vision based solutions to monitor and segregate waste efficiently across multiple cities in India. Also includes tangible interventions to support worker wellbeing and managing efficiency.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/waste/";
             },},{
