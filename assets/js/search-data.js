@@ -49,9 +49,9 @@ ninja.data = [{
           description: "Analogical LLM Ideation Agent. This research work advances the theoretical knowledge of Al-assisted ideation and computer-aided creativity by presenting analogical ideation framework for structured and diversified idea generation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/alia/";
-            },},{id: "projects-ancient-egypt-in-ar",
-          title: 'Ancient Egypt in AR',
-          description: "There have been several books covering the rich ancient history of Egypt, but this books aims to bring the intricacies of Egyptian artefacts and architectureinto the readers spatial environment.",
+            },},{id: "projects-augmented-and-virtual-reality",
+          title: 'Augmented and Virtual Reality',
+          description: "A collection of all the immersive reality projects and activities",
           section: "Projects",handler: () => {
               window.location.href = "/projects/egyptar/";
             },},{id: "projects-fluid-minds",
@@ -59,6 +59,11 @@ ninja.data = [{
           description: "Physical medium-based visuals with audio may achieve safe and controlled distraction. Usage of relatively less explored material - Ferrofluid is studied in the making of a Fidget distraction tool capable of creating dynamic and attractive visuals to keep them engaged before the medical procedure starts.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fluidminds/";
+            },},{id: "projects-smart-medication-adherence-and-well-being-optum",
+          title: 'Smart medication adherence and well-being, Optum',
+          description: "The case study aims to research the challenges that chronic disease (Thyroid) patients experience in their medication adherence journey. This work was part of a 2-month internship period at Optum in Hyderabad.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/smartadherence/";
             },},{id: "projects-ai-for-waste-segregation",
           title: 'AI for Waste segregation',
           description: "Building computer vision based solutions to monitor and segregate waste efficiently across multiple cities in India. Also includes tangible interventions to support worker wellbeing and managing efficiency.",
