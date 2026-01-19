@@ -176,3 +176,5 @@ development of evaluation benchmarks, methodologies for creative tasks
 is an interesting and important research direction towards the goal of AGI.
 Future studies could focus on developing evaluation benchmarks across
 wider tasks having applicability in real-world high subjectivity use-cases.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/sMOLpQWBspUl3wF9TPWYTa/Portfolio--1-?node-id=857-3&p=f&scaling=min-zoom&content-scaling=fixed&page-id=857%3A2&embed-host=share" allowfullscreen></iframe>
