@@ -2,8 +2,8 @@
 layout: page
 title: Fluid Minds
 description: Physical medium-based visuals with audio may achieve safe and controlled distraction. Usage of relatively less explored material - Ferrofluid is studied in the making of a Fidget distraction tool capable of creating dynamic and attractive visuals to keep them engaged before the medical procedure starts.
-img: assets/img/fluidminds/1.JPG
-importance: 4
+img: assets/img/fluidminds/6.png
+importance: 3
 category: work
 related_publications: false
 ---
@@ -74,10 +74,18 @@ A tangible prototype pf a maze puzzle was developed, in which participants could
     Moments of participant interactions with the puzzle
 </div>
 
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAFxlAyW34U/EFMsLiSOvqGSjA5QEnZfGg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+
+
 <h3>Next steps... towards Smart Material Interfaces!</h3>
 This is where things got interesting, observing the interation patterns and feedback received from the participants motivated me to explore the use of material - "ferrofluid" from a human interaction point of view. I started a thourough literature review and came across the term - "Smart Material Interfaces" (SMI). Advancements in computing technology and smart materials have given rise to a relatively newer concept of Smart Material Interface (SMI). Through {% cite minuto %}. works, he proposed a vision of SMIs which possess the capability of making changes to the physical and material properties of the output modality. SMIs are found to be possessing self-augmented capabilities, making them reactive - change in size, shape, color etc under the control of any external stimuli which can be in the form of electricity, magnetism, light, temperature {% cite minuto %}. Organic User Interfaces (OUI) on the other hand are generally non-planar displays for both input and output, opening possibilities across flexible and unconventional interfaces {% cite Vertegaal %}. The other noteworthy concept to be understood across such interfaces is the coupling of information and presentation layers and manipulation type used to achieve communication with the underlying information. Few significant differences of SMIs compared to TUIs - close coupling between input and output changes making them observable and accessible through material and physical changes {% cite vyas %}, a continuous perception of the object and physical changes in space offering a more cohesive and natural interaction.
 
 Currently in progress, the future of this work will be to investigate the applicability of SMI's in the context of tangible, expressive educational methods.
 
-<h2>References</h2>
-{% bibliography --file projects %}

@@ -3,12 +3,19 @@
 
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <link
   rel="stylesheet"
   href="{{ site.third_party_libraries.mdb.url.css }}"
   integrity="{{ site.third_party_libraries.mdb.integrity.css }}"
   crossorigin="anonymous"
 >
+<script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+ <script>
+        new kursor({
+            type: 1
+        })
+    </script>
 
 {% if page.pretty_table %}
   <!-- Bootstrap Table -->

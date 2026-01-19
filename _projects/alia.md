@@ -2,7 +2,7 @@
 layout: page
 title: ALIA
 description: Analogical LLM Ideation Agent. This research work advances the theoretical knowledge of Al-assisted ideation and computer-aided creativity by presenting analogical ideation framework for structured and diversified idea generation.
-img: assets/img/aliaposter.png
+img: assets/img/aliaposter.avif
 importance: 1
 category: work
 ---
@@ -13,6 +13,8 @@ category: work
 <li>The stimulus for inspiration often  depends on the idea generation method chosen. Intuitive or Logical. (TRIZ, C-sketch, Brainstorming)</li>
 <li>The term  "computer-supported creativity" describes the application of technology to support and  improve human creativity. (Human-AI Interaction, AI in creavitiy)</li>
 </ul>
+
+<!-- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%"  height="450" src="https://embed.figma.com/proto/sMOLpQWBspUl3wF9TPWYTa/Portfolio--1-?node-id=638-4&scaling=contain&content-scaling=fixed&page-id=638%3A3&starting-point-node-id=638%3A4&embed-host=share" allowfullscreen></iframe> -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -89,7 +91,7 @@ We propose a conceptual framework that integrates LLMs into a structured design-
 The GenAI layer operates across all the ideation stages and serves two main purposes- first, gathering contextual information of the topic being discussed; second, generating content in the form of textual stimuli based on the ideation stage and context gathered. The framework takes into consideration external contributing factors which generally affects any co-creative ideation session.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/alia.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/alia.avif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -132,12 +134,45 @@ To address the gap of standardised creativity benchmarks for LLM-generated analo
 
 <h3>Results</h3>
 <h4>RQ1: How effective is the LLM-design heuristic based support tool</h4>
-<b> Leveraging LLMs to generate analogical stimuli based on design heuristics
+ Leveraging LLMs to generate analogical stimuli based on design heuristics
  like synectics and dialectial reasoning, enhanced the creative output of
- novice designers.</b>
+ novice designers
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/alia/result1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/alia/result1.png"  title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
+<br/>
+<h4>RQ4 : Which architecture of models perform better for improving creativity metrics?</h4>
+Comparison of grouped synectic prompt categories across models on creativity dimensions. From the analysis, it is evident that Model 1 (Chatgpt
+gpt-4o) showed dominance across all the creativity dimensions. Model 1 is
+a transformer-based architecture model having a large number of parameters
+(knowledge learned during training). Transformer models make use of all
+the available parameters for content generation, making it computationally
+expensive. Whereas Model 3 (Mixtral8x7b) is a popular Mixture of Experts
+(Moe) architecture model, where a few ”expert” networks are routed through
+a gating mechanism for content generation. This functioning in MoE models
+could result in unexpected and creative outputs, as a few specialised experts from
+diverse domains(sci-fi, romance, science) may be selected for content generation.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/alia/rq3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+<h3>Insights</h3>
+<ul>
+<li>The synectics method of analogical thinking, assisted by large language
+models for content generation, enhances human capabilities by expanding
+the conceptual landscape and improving ideation quality</li>
+<li>There is a considerable difference in the creative performance of different
+language models, suggesting the need for dedicated creative benchmarking
+tests</li>
+
+Investigating the creative aspects of LLMs across analogical tasks and the
+development of evaluation benchmarks, methodologies for creative tasks
+is an interesting and important research direction towards the goal of AGI.
+Future studies could focus on developing evaluation benchmarks across
+wider tasks having applicability in real-world high subjectivity use-cases.

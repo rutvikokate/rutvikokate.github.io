@@ -80,12 +80,8 @@ The dashboard aims to provide AI-driven spatio-temporal hotspot analysis across 
     </div>
 </div>
 
-<h3>🎯Learnings</h3>
-This project was a opportunity for me to apply my exisitng software engineering and data visualizations skills to build a dashboard that effectively communicated complex geospatial information to action-oriented policymakers in a user-friendly approach. However, the other important skill I grasped while working in this project was the study of user behaviour and aligning the solution with user needs. Few important and intersting points I came across which helped me grow as an HCI researcher:
-<ul>
-<li></li>
-
-</ul>
+<h3>Presentation slides</h3>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/sMOLpQWBspUl3wF9TPWYTa/Portfolio--1-?node-id=827-3&p=f&scaling=min-zoom&content-scaling=fixed&page-id=827%3A2&embed-host=share" allowfullscreen></iframe>
 
 <h3>Next steps</h3>
 Our work was presented at the final stage of <a href='https://aiswaryam.ai.iith.ac.in/'>AI Center of Excellence, IIT Hyderabad</a> in the domain of sustainable cities at New Delhi in September 2024. Based on this work we got the opportunity to further take this project towards the Phase 2 of the AI CoEs mission. We are now focussing on building AI/ML and end-user digital services for urban infrastructure monitoring, where we are working with GHMC (Greater Hyderabad Municipal Corporation) for developing solutions for efficient garbage monitoring, disposal and recycling. As a part of our efforts in the initial phase of the project, we are also working on waste segregation and management - <a href='https://aiswaryam.ai.iith.ac.in/'>AI for Waste segregation</a>

@@ -8,7 +8,7 @@ subtitle: |
 
 profile:
   align: right
-  image: rutvik.jpg
+  image: rutvik.avif
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -28,6 +28,6 @@ latest_posts:
 
 I am working as a Project Scientist at the AI Center of Excellence, IIT Hyderabad. Building digital experiences and services for AI-powered urban governance platform and waste management assisting government bodies. A project under the <a href='https://www.pib.gov.in/PressReleasePage.aspx?PRID=2064990'>Make AI in India, IndiaAI</a> mission.
 
-My research studies are focused across - design co-creativity, human-AI and tangible interactions. I am excited about creative applications of computing technologies ( LLMs, extended-reality ) and their impact on design and society.
+My research studies are focused across - design co-creativity, human-AI and tangible interactions. I am excited about creative applications of computing technologies (LLMs, extended-reality) and their impact on design and society.
 
 Recently, I am interested in investigating methods for leveraging AI to augment human creativity, critical thinking and problem-solving capabilities. I am particularly interested in exploring broader topics like - human-AI collaboration for augmenting critical thinking / AI-literacy, co-creativity frameworks, AI alignment through visual interfaces and benchmarking for open-ended, subjective tasks.
