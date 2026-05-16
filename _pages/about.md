@@ -3,8 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: |
-  Project Scientist @ <a href='https://aiswaryam.ai.iith.ac.in/'>AI Center of Excellence, IIT Hyderabad</a> <br>
-  <a href='https://drive.google.com/file/d/1CD7JmOYK8yAT4bO6H8hMUjiXIjRhXYP7/view?usp=drive_link'> CV </a> • <a href='https://www.linkedin.com/in/rutvik-kokate/'>Linkedin</a> •  <a href='https://drive.google.com/file/d/1pr4BURyipN0Mdu6Wwu_XCbmvr1gtab-k/view?usp=drive_link'>Portfolio</a>
+ 
+  <a href='https://drive.google.com/file/d/1m6FSLCa0sH_vB_DwtE_h6QZ0zichg9uw/view?usp=drive_link'> CV </a> • <a href='https://www.linkedin.com/in/rutvik-kokate/'>Linkedin</a> •  <a href='https://drive.google.com/file/d/1pr4BURyipN0Mdu6Wwu_XCbmvr1gtab-k/view?usp=drive_link'>Portfolio</a>
 
 profile:
   align: right
@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am working as a Project Scientist at the AI Center of Excellence, IIT Hyderabad. Building digital experiences and services for AI-powered urban governance platform and waste management assisting government bodies. A project under the <a href='https://www.pib.gov.in/PressReleasePage.aspx?PRID=2064990'>Make AI in India, IndiaAI</a> mission.
+Currently am working as a researcher at IIT Hyderabad, parallely working in a med-tech startup building a surgical simulator. Previously, I was working as a Project Scientist at the AI Center of Excellence, IIT Hyderabad where I worked on developing digital experiences and services for an AI-powered urban governance platform and waste management assisting government bodies. This work under the <a href='https://www.pib.gov.in/PressReleasePage.aspx?PRID=2064990'>Make AI in India, IndiaAI</a> mission.
 
-My research studies are focused across - design co-creativity, human-AI and tangible interactions. I am excited about creative applications of computing technologies (LLMs, extended-reality) and their impact on design and society.
+My work is broadly spanned across human-computer interaction. I am interested in creative applications of computing technologies. I have been involved in teachning courses related to interaction design and immersive reality technlogies (AR/VR).
 
-Recently, I am interested in investigating methods for leveraging AI to augment human creativity, critical thinking and problem-solving capabilities. I am particularly interested in exploring broader topics like - human-AI collaboration for augmenting critical thinking / AI-literacy, co-creativity frameworks, AI alignment through visual interfaces and benchmarking for open-ended, subjective tasks.
+Recently, I am interested in investigating methods for leveraging AI to augment human creativity, critical thinking and problem-solving capabilities. Exploring broader topics like - human-AI collaboration for augmenting critical thinking, AI-literacy, creativity support tools, visual interfaces and evaluation methods for subjective tasks.
