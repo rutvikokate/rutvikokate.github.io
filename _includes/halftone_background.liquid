@@ -1,0 +1,181 @@
+<!-- Animated halftone dot-wave background (subtle, site-wide) -->
+<style>
+  /* Let the canvas sit behind everything: move the page color to <html>
+     and make <body> transparent so the fixed canvas shows through. */
+  html {
+    background-color: var(--global-bg-color);
+  }
+  body {
+    background-color: transparent !important;
+  }
+  #halftone-bg {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+    display: block;
+  }
+</style>
+
+<canvas id="halftone-bg" aria-hidden="true"></canvas>
+
+<script>
+  (function () {
+    var canvas = document.getElementById("halftone-bg");
+    if (!canvas || !canvas.getContext) return;
+    var ctx = canvas.getContext("2d");
+
+    var GAP = 12;       // grid spacing in CSS px
+    var R_MAX = 2.0;    // max dot radius in CSS px
+    var ALPHA = 0.2;   // overall subtlety
+
+    var W = 0, H = 0, dpr = 1, dotColor = "#000";
+    var reduceMotion = window.matchMedia
+      ? window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      : false;
+
+    // Mouse interaction state
+    var MOUSE_RADIUS = 250;  // px radius of cursor influence
+    var MOUSE_BOOST = 0.3;   // extra dot growth at the cursor center
+    var targetX = -9999, targetY = -9999; // raw pointer target
+    var mx = -9999, my = -9999;            // smoothed pointer position
+    var mStrength = 0;                     // 0..1 eased influence (fade in/out)
+    var mouseActive = false;
+
+    function readColor() {
+      var c = getComputedStyle(document.documentElement)
+        .getPropertyValue("--global-text-color")
+        .trim();
+      dotColor = c || "#000";
+    }
+
+    function resize() {
+      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      W = window.innerWidth;
+      H = window.innerHeight;
+      canvas.width = Math.floor(W * dpr);
+      canvas.height = Math.floor(H * dpr);
+      canvas.style.width = W + "px";
+      canvas.style.height = H + "px";
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+
+    // Smooth flowing field built from a few sines -> value in [0, 1]
+    function field(x, y, t) {
+      var v =
+        Math.sin(x * 0.015 + t * 0.00055) +
+        Math.sin(y * 0.020 - t * 0.00080) +
+        Math.sin((x + y) * 0.012 + t * 0.00095) +
+        Math.sin(Math.hypot(x - W * 0.55, y * 1.2) * 0.013 - t * 0.00085);
+      return (v / 4 + 1) / 2; // 0..1
+    }
+
+    function draw(t) {
+      ctx.clearRect(0, 0, W, H);
+      ctx.fillStyle = dotColor;
+      // Global "breathing": the whole field gently swells and contracts
+      var breath = 0.82 + 0.18 * Math.sin(t * 0.0011);
+      var mr2 = MOUSE_RADIUS * MOUSE_RADIUS;
+      for (var y = GAP * 0.5; y < H; y += GAP) {
+        // Strongest near the top, fading toward the bottom (like the reference)
+        var vfall = Math.max(0, 1 - y / (H * 0.98));
+        vfall = vfall * vfall; // ease-in fade
+        for (var x = GAP * 0.5; x < W; x += GAP) {
+          // Cursor influence: a soft circular spotlight that also reveals
+          // dots in the faded lower region.
+          var infl = 0;
+          if (mStrength > 0.001) {
+            var dx = x - mx, dy = y - my;
+            var d2 = dx * dx + dy * dy;
+            if (d2 < mr2) {
+              infl = 1 - Math.sqrt(d2) / MOUSE_RADIUS;
+              infl = infl * infl * mStrength;
+            }
+          }
+          var presence = vfall > infl ? vfall : infl;
+          if (presence <= 0.001) continue;
+          var n = field(x, y, t);
+          var r = R_MAX * n * breath * presence + R_MAX * MOUSE_BOOST * infl;
+          if (r < 0.2) continue;
+          ctx.globalAlpha = ALPHA * (0.4 + 0.6 * presence);
+          ctx.beginPath();
+          ctx.arc(x, y, r, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+      ctx.globalAlpha = 1;
+    }
+
+    var rafId = null;
+    function loop(now) {
+      // Ease the cursor position and its influence strength for smooth feel
+      if (mx < -9000) { mx = targetX; my = targetY; }
+      mx += (targetX - mx) * 0.15;
+      my += (targetY - my) * 0.15;
+      mStrength += ((mouseActive ? 1 : 0) - mStrength) * 0.08;
+      draw(now);
+      rafId = requestAnimationFrame(loop);
+    }
+    function start() {
+      if (rafId == null && !reduceMotion) rafId = requestAnimationFrame(loop);
+    }
+    function stop() {
+      if (rafId != null) {
+        cancelAnimationFrame(rafId);
+        rafId = null;
+      }
+    }
+
+    readColor();
+    resize();
+
+    if (reduceMotion) {
+      draw(0); // static frame
+    } else {
+      start();
+    }
+
+    // Redraw/restart on relevant events
+    var rt;
+    window.addEventListener("resize", function () {
+      clearTimeout(rt);
+      rt = setTimeout(function () {
+        resize();
+        if (reduceMotion) draw(0);
+      }, 150);
+    });
+
+    // Cursor reactivity (skipped under reduced-motion, since it needs the loop)
+    if (!reduceMotion) {
+      window.addEventListener("pointermove", function (e) {
+        targetX = e.clientX;
+        targetY = e.clientY;
+        mouseActive = true;
+      }, { passive: true });
+      document.addEventListener("pointerleave", function () {
+        mouseActive = false;
+      });
+      window.addEventListener("blur", function () {
+        mouseActive = false;
+      });
+    }
+
+    document.addEventListener("visibilitychange", function () {
+      if (document.hidden) stop();
+      else start();
+    });
+
+    // React to light/dark theme switches (data-theme on <html>)
+    if (window.MutationObserver) {
+      new MutationObserver(function () {
+        readColor();
+        if (reduceMotion) draw(0);
+      }).observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["data-theme"],
+      });
+    }
+  })();
+</script>

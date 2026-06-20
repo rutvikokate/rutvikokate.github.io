@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Currently am working as a researcher at IIT Hyderabad, parallely working in a med-tech startup building a surgical simulator. Previously, I was working as a Project Scientist at the AI Center of Excellence, IIT Hyderabad where I worked on developing digital experiences and services for an AI-powered urban governance platform and waste management assisting government bodies. This work under the <a href='https://www.pib.gov.in/PressReleasePage.aspx?PRID=2064990'>Make AI in India, IndiaAI</a> mission.
+I am a researcher working at the intersection of Human-Computer Interaction and Artificial Intelligence. Currently, I am working at IIT Hyderabad and concurrently as a researcher in a medical technology startup building a surgical simulator. Previously, I was a Project Scientist at the AI Center of Excellence, IIT Hyderabad where I worked on developing digital experiences and services for an AI-powered urban governance platform and waste management assisting government bodies. This work was under the Make AI in India, IndiaAI mission.
 
-My work is broadly spanned across human-computer interaction. I am interested in creative applications of computing technologies. I have been involved in teachning courses related to interaction design and immersive reality technlogies (AR/VR).
+My work is broadly spanned across human-computer interaction. I am interested in creative applications of computing technologies. I have been involved in teaching courses related to interaction design and immersive reality technlogies (AR/VR).
 
 Recently, I am interested in investigating methods for leveraging AI to augment human creativity, critical thinking and problem-solving capabilities. Exploring broader topics like - human-AI collaboration for augmenting critical thinking, AI-literacy, creativity support tools, visual interfaces and evaluation methods for subjective tasks.
