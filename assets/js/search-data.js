@@ -28,16 +28,20 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-wrapped-up-a-vr-cockpit-procedural-training-simulator-for-indian-air-force-academy-cadets-leading-a-team-of-unity-developers-and-3d-artists",
+          title: 'Wrapped up a VR cockpit procedural training simulator for Indian Air Force Academy...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-analogical-reasoning-with-large-language-models-is-out-in-design-science-cambridge-university-press-also-began-reviewing-for-the-journal",
+          title: 'Our paper Analogical reasoning with large language models is out in Design Science...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-invited-talk-at-vignyan-university-open-source-amp-amp-low-resource-ai-building-for-bharat-and-beyond",
+          title: 'Invited talk at Vignyan University: Open-Source &amp;amp;amp; Low-Resource AI: Building for Bharat and...',
+          description: "",
+          section: "News",},{id: "news-started-training-40-students-in-the-ar-vr-test-engineer-skill-development-course-under-pmkvy-4-0",
+          title: 'Started training 40 students in the AR/VR Test Engineer skill development course under...',
+          description: "",
+          section: "News",},{id: "news-joined-medifjord-ai-as-a-research-engineer-building-a-vr-surgical-training-simulator-for-medical-students",
+          title: 'Joined MediFjord.ai as a Research Engineer, building a VR surgical training simulator for...',
           description: "",
           section: "News",},{id: "projects-aiswaryam",
           title: 'Aiswaryam',
