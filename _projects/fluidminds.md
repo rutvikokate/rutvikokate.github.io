@@ -3,6 +3,7 @@ layout: page
 title: Fluid Minds
 description: Physical medium-based visuals with audio may achieve safe and controlled distraction. Usage of relatively less explored material - Ferrofluid is studied in the making of a Fidget distraction tool capable of creating dynamic and attractive visuals to keep them engaged before the medical procedure starts.
 img: assets/img/fluidminds/6.png
+tag: Tangible Interaction
 importance: 3
 category: work
 related_publications: false

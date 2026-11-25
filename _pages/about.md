@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -26,8 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a researcher working at the intersection of Human-Computer Interaction and Artificial Intelligence. Currently, I am working at IIT Hyderabad and concurrently as a researcher in a medical technology startup building a surgical simulator. Previously, I was a Project Scientist at the AI Center of Excellence, IIT Hyderabad where I worked on developing digital experiences and services for an AI-powered urban governance platform and waste management assisting government bodies. This work was under the Make AI in India, IndiaAI mission.
+I am an HCI researcher working at the intersection of human-AI interaction, computational creativity and collaborative design. My research examines how AI systems shape creative ideation, decision-making and collective creativity, using both qualitative and quantitative methods.
 
-My work is broadly spanned across human-computer interaction. I am interested in creative applications of computing technologies. I have been involved in teaching courses related to interaction design and immersive reality technlogies (AR/VR).
+I currently work as a Research Engineer at MediFjord.ai, developing a VR surgical training simulator for medical students. Before this, I was a Project Scientist at the AI Center of Excellence, IIT Hyderabad (Jul 2024 - Jan 2026), where I co-designed ML-driven tools for waste management and urban governance with government bodies and an NGO under the Make AI in India, IndiaAI mission.
 
-Recently, I am interested in investigating methods for leveraging AI to augment human creativity, critical thinking and problem-solving capabilities. Exploring broader topics like - human-AI collaboration for augmenting critical thinking, AI-literacy, creativity support tools, visual interfaces and evaluation methods for subjective tasks.
+I completed my M.Des. in Interaction Design at IIT Hyderabad (2024, Institute Silver Medal), with a thesis on LLM-assisted design ideation supervised by Prof. Prasad Onkar. Earlier, I worked as a Senior Data Engineer in life sciences and hold a B.E. in Computer Engineering from the University of Mumbai.
+
+I also teach: AR/VR, AI in design, game design and digital product design at IIT Hyderabad, NIFT Hyderabad, Woxsen University and under PMKVY 4.0. Currently I am interested in human-AI collaboration for augmenting critical thinking, AI literacy, creativity support tools, and evaluation methods for subjective tasks.

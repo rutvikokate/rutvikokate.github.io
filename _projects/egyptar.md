@@ -3,6 +3,7 @@ layout: page
 title: Augmented and Virtual Reality
 description: A collection of all the immersive reality projects and activities
 img: assets/img/egypt.avif
+tag: Immersive Reality
 importance: 5
 category: work
 related_publications: false

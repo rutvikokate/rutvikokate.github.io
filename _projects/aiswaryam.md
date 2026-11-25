@@ -3,6 +3,7 @@ layout: page
 title: Aiswaryam
 description: A suite of AI-driven digital experiences across multiple categories, such as traffic accidents, air pollution, traffic congestion, waste management to help policymakers and government officials make data-driven decisions.
 img: assets/img/aiswaryam/cave.png
+tag: Data Visualization
 importance: 2
 category: work
 related_publications: false

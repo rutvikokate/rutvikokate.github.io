@@ -3,6 +3,7 @@ layout: page
 title: Smart medication adherence and well-being, Optum
 description: The case study aims to research the challenges that chronic disease (Thyroid) patients experience in their medication adherence journey. This work was part of a 2-month internship period at Optum in Hyderabad. 
 img: assets/img/optum/cover.png
+tag: UX Research
 importance: 4
 category: work
 related_publications: false

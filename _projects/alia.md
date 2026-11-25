@@ -3,6 +3,7 @@ layout: page
 title: ALIA
 description: Analogical LLM Ideation Agent. This research work advances the theoretical knowledge of Al-assisted ideation and computer-aided creativity by presenting analogical ideation framework for structured and diversified idea generation.
 img: assets/img/aliaposter.avif
+tag: Human-AI Interaction
 importance: 1
 category: work
 ---

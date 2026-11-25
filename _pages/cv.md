@@ -4,8 +4,8 @@ permalink: /cv/
 title: CV
 nav: false
 nav_order: 5
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: I earned my Masters' degree from IIT Hyderabad, specializing in Interaction design and focused my research on design co-creativity AI support tool/method. During my masters I had the opportunity to intern at Optum where I implemented a case study on assitive tech ecosystem for chronic medication adherence. Before my Masters I was employed as a Senior Data Engineer at LTI, where I worked on data engineering and analytics projects in the domain of life sciences. I completed by Bachelor of Engineering in Computer Engineering from Mumbai University during which I interned at Reliance PetroChem as a Machine learning intern.
+cv_pdf: rutvik_cv.pdf # you can also use external links here
+description: HCI researcher working on human-AI interaction, computational creativity and collaborative design. M.Des. in Interaction Design from IIT Hyderabad; currently a Research Engineer building a VR surgical training simulator at MediFjord.ai.
 toc:
   sidebar: left
 ---
